@@ -3,7 +3,7 @@ from products import Product
 class Store:
 
     def __init__(self, products_list):
-        self.products = products_list
+        self.products = list(products_list)
 
 
     def add_product(self, product: "Product") -> None:
@@ -21,7 +21,7 @@ class Store:
 
 
     def get_total_quantity(self) -> int:
-        return len(self.products)
+        return sum(p.get_quantity() for p in self.products)
 
 
     def get_all_products(self) -> list:
