@@ -1,5 +1,3 @@
-"""Command line interface of the Best Buy store application."""
-
 from products import Product
 from store import Store
 

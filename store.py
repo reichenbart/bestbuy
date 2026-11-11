@@ -1,5 +1,3 @@
-"""Store class of the Best Buy store application."""
-
 from products import Product
 
 

@@ -1,5 +1,3 @@
-"""Product class of the Best Buy store application."""
-
 
 class Product:
     """A single product in the store with a name, a price and a quantity."""
